@@ -1,0 +1,4 @@
+feature,domain_classifier_accuracy
+HOG,0.9948979591836735
+Landmarks,0.8811224489795919
+PCA,0.9938775510204081
