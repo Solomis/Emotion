@@ -1,0 +1,39 @@
+{
+  "best_feature": "HOG",
+  "best_classifier": "SVM",
+  "feature_ranking_val_macro_f1": {
+    "HOG": 0.5624,
+    "PCA": 0.4643,
+    "Landmarks": 0.4319
+  },
+  "n_pca_components": 253,
+  "best_params": {
+    "HOG|SVM": {
+      "C": 10.0
+    },
+    "PCA|SVM": {
+      "C": 10.0
+    },
+    "HOG|LogReg": {
+      "C": 0.1
+    },
+    "Landmarks|SVM": {
+      "C": 10.0
+    },
+    "Landmarks|RF": {
+      "max_depth": null
+    },
+    "HOG|RF": {
+      "max_depth": null
+    },
+    "Landmarks|LogReg": {
+      "C": 0.1
+    },
+    "PCA|LogReg": {
+      "C": 0.1
+    },
+    "PCA|RF": {
+      "max_depth": 20
+    }
+  }
+}
